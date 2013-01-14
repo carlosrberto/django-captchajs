@@ -1,1 +1,4 @@
-# jQuery captchajs - jQuery Plugin for django-simple-captcha
+jQuery captchajs
+=======
+
+ jQuery Plugin for django-simple-captcha
