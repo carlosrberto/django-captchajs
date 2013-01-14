@@ -22,4 +22,5 @@ pip install -e git+git@github.com:carlosrberto/django-captchajs.git#egg=django-c
 - Add captchajs URLs to main url patterns <code>url(r'^captchajs/', include('captchajs.urls')),</code>
 - Load captchajs on templates <code>{% load captchajs %}</code>
 - Call captchajs template tag <code>{% captchajs_scripts %}</code> to include javascripts
+- Add the css class "captcha-update" on the button that updates the captcha
 - Done, it's working
