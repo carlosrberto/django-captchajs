@@ -14,7 +14,7 @@
 (function($) {
     var defaults = {
         captchaUrl : '/captchajs/update-captcha/',
-        updateButton: $('.captcha-update'),
+        updateButton: '.captcha-update',
         autoUpdate: true,
         autoAppend: false,
     };
@@ -26,7 +26,7 @@
             this.settings = defaults;
         }
         this.container = $(container);
-        $(this.settings.updateButton).on('click', $.proxy(function( event ) {
+        $('body').on('click', this.settings.updateButton, $.proxy(function( event ) {
             event.preventDefault();
             this.load();
         }, this));
