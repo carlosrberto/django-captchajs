@@ -38,6 +38,7 @@
 
             $(that.container).trigger('captchajs.load');
             $.ajax({
+                cache: false,
                 url: this.settings.captchaUrl,
                 success: function( data ) {
                     var fragment = $('<div>');
