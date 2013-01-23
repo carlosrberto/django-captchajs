@@ -1,6 +1,6 @@
 /*
 * jQuery captchajs
-* http://carlosrberto.github.com/jquery-captchajs/
+* http://carlosrberto.github.com/django-captchajs/
 *
 * Copyright (c) 2012 Carlos Roberto Gomes Junior
 * http://carlosroberto.name/
